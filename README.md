@@ -48,4 +48,6 @@ Run the CLI:
 
 ```bash
 node weather.js
+# or
+weather
 ```
