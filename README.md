@@ -35,7 +35,7 @@ cd weather-cli
 npm install
 ```
 
-3. Create a `.env` file in the project root and add your WeatherAPI key:
+3. Create a `.env` file in the project root and add your [WeatherAPI](https://www.weatherapi.com/) key:
 
 ```
 API_KEY=your_api_key_here
