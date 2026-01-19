@@ -122,7 +122,7 @@ const getWeather = async (city) => {
         `)
     } catch (error) {
         console.error(
-            chalk.red(`Weather error: {error.message}`),
+            chalk.red(`Weather error: ${error.message}`),
         )
     }
 }

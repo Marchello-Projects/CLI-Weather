@@ -1,5 +1,5 @@
 {
-  "name": "cli-wetaher",
+  "name": "@marchello_projects/cli-weather",
   "version": "1.0.0",
   "description": "A simple Node.js CLI tool for getting the current weather in any city via a third-party API",
   "keywords": [
