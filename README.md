@@ -1,9 +1,6 @@
 <img width="4213" height="1395" alt="Group 7" src="https://github.com/user-attachments/assets/246df07c-6642-4eac-a1a5-e64aa0f019dd" />
 
-
 A simple **Node.js CLI application** to manage user profiles and check the current weather for your preferred city. The project uses a clean interface with **interactive prompts**, stores user preferences locally, and fetches weather data from the WeatherAPI.
-
----
 
 ## Features
 
@@ -22,8 +19,6 @@ A simple **Node.js CLI application** to manage user profiles and check the curre
   * Colorful interface with `chalk`.
   * Loading spinners using `ora`.
   * Input validation with `inquirer`.
-
----
 
 ## Installation
 
@@ -46,8 +41,6 @@ npm install
 API_KEY=your_api_key_here
 DOTENV_CONFIG_QUIET=true
 ```
-
----
 
 ## Usage
 
