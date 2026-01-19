@@ -1,0 +1,44 @@
+{
+  "name": "cli-wetaher",
+  "version": "1.0.0",
+  "description": "A simple Node.js CLI tool for getting the current weather in any city via a third-party API",
+  "keywords": [
+    "cli",
+    "weather",
+    "weather-cli",
+    "nodejs",
+    "command-line",
+    "forecast",
+    "api",
+    "tool",
+    "weather-app",
+    "temperature"
+  ],
+  "homepage": "https://github.com/Marchello-Projects/CLI-Weather#readme",
+  "bugs": {
+    "url": "https://github.com/Marchello-Projects/CLI-Weather/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marchello-Projects/CLI-Weather.git"
+  },
+  "license": "MIT",
+  "author": "Marchello",
+  "type": "module",
+  "main": "weather.js",
+  "bin": {
+    "weather": "./weather.js"
+  },
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "conf": "^15.0.2",
+    "figures": "^6.1.0",
+    "inquire": "^0.4.8",
+    "ora": "^9.0.0"
+  }
+}
